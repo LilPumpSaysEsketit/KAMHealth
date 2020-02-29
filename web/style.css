@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+}
+
+.box {
+    background-image: url('healthLanding.jpg');
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    box-shadow: 5px 0 10px rgb(102, 102, 102);
+    filter: grayscale(1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food_box {
+    background-image: url('food.jpg');
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    box-shadow: 5px 0 10px rgb(102, 102, 102);
+    filter: grayscale(1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fitness_box {
+    background-image: url('fitness.jpg');
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    box-shadow: 5px 0 10px rgb(102, 102, 102);
+    filter: grayscale(1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text{
+    color: white;
+    font-family: 'Karla', 'Courier New', Courier, monospace;
+    font-size: 4vh;
+}
+
+.panel {
+    display: flex;
+    justify-content: center;
+    height: 15vw;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.boxes {
+    background-color: rgb(219, 207, 191);
+    width: 30%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'Karla', 'Courier New', Courier, monospace;
+    font-size: 2vh;
+    transition: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.blackBox {
+    background-color: rgba(0, 0, 0, 0.671);
+    padding: 5px;
+}
+
+.boxes:hover{
+    filter: brightness(50%);
+}
+
+#article1 {
+    background-size: 100%;
+}
+
+#article2 {
+    background-size: 100%;
+}
+
+#article3 {
+    background-size: 100%;
+}
+
+#navBar {
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    position: fixed;
+    transition: 0.2s;
+    font-family: "Cabin", sans-serif;
+    list-style: none;
+    transition: 0.2s;
+  }

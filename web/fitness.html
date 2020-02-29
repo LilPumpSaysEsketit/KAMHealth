@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fitness</title>
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel = "stylesheet" href="navBar.css">
+</head>
+<body style="background-color:#F2F2F2">
+    <div id="nav" style="position: fixed; z-index: 999;"class="w3-bar w3-black">
+        <a href="health.html" class="w3-bar-item w3-button">Health</a>
+        <a href="food.html" class="w3-bar-item w3-button">Food</a>
+        <a href="fitness.html" class="w3-bar-item w3-button">Fitness</a>
+    </div>
+    <div class = "fitness_box">
+        <p id = "text">Fitness</p>
+    </div>
+    <br>
+    <center><h4>Trending</h4></center>
+    <div class = "panel">
+        <a class = "boxes" id ="article1" href = "https://news.google.com/"><div class = "blackBox"><p class ="a1Title">...</p></div></a>
+        <a class = "boxes" id ="article2" href = "https://news.google.com/"><div class = "blackBox"><p class ="a2Title">...</p></div></a>
+        <a class = "boxes" id ="article3" href = "https://news.google.com/"><div class = "blackBox"><p class ="a3Title">...</p></div></a>
+    </div>
+    <div>
+    <script src="script3.js"></script>
+    <br>
+    <center><h4>Workout</h4></center>
+    <br>
+    <p><button class="w3-button w3-green">Start</button></p>
+    <p><button class="w3-button w3-red" onclick="toggleText()">Stop</button></p>
+    <p id='demo' style="display: none;">Distance travelled: 0m<br>
+    Cals burned: 0</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3099.8573312613635!2d-77.01384928455288!3d39.018567879552045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7cf586f9b73d5%3A0xc227c473fffb50c7!2sMontgomery%20Blair%20High%20School!5e0!3m2!1sen!2sus!4v1583017384576!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    <script type="text/javascript">
+        function toggleText() {
+  var text = document.getElementById("demo");
+  if (text.style.display === "none") {
+    text.style.display = "block";
+  } else {
+    text.style.display = "none";
+  }
+}
+    </script>
+</div>
+</body>
+</html>
